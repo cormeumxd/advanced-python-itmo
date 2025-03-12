@@ -27,7 +27,7 @@ packages:
 - pypi: .
   name: advanced-python-itmo
   version: 0.1.0
-  sha256: 4b4b07a0fe64c488bf1a05b4c64fbd36e693ba99a6c28b4ef8c25fbfbe894a95
+  sha256: e6acf4fb0dd85c3328cc294ff9aaedf7335e9e23e5f2852a083fe2ab586e39f2
   requires_python: '>=3.11'
   editable: true
 - conda: https://conda.anaconda.org/conda-forge/osx-arm64/bzip2-1.0.8-h99b78c6_7.conda
