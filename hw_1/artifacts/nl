@@ -1,0 +1,58 @@
+(advanced-python-itmo) cormeum@MacBook-Air-Artur advanced-python-itmo % python hw_1/nl.py
+123
+     1  123
+456
+     2  456
+aboba
+     3  aboba
+(advanced-python-itmo) cormeum@MacBook-Air-Artur advanced-python-itmo % python hw_1/nl.py pyproject.toml
+     1  [project]
+     2  dependencies = []
+     3  name = "advanced-python-itmo"
+     4  requires-python = ">= 3.11"
+     5  version = "0.1.0"
+
+     6  [build-system]
+     7  build-backend = "hatchling.build"
+     8  requires = ["hatchling"]
+
+     9  [tool.pixi.project]
+    10  channels = ["conda-forge"]
+    11  platforms = ["osx-arm64"]
+
+    12  [tool.pixi.pypi-dependencies]
+    13  advanced_python_itmo = { path = ".", editable = true }
+
+    14  [tool.pixi.tasks]
+
+    15  [tool.pixi.dependencies]
+    16  python = ">=3.13.2,<3.14"
+(advanced-python-itmo) cormeum@MacBook-Air-Artur advanced-python-itmo % nl                   
+123
+     1  123
+456
+     2  456
+aboba
+     3  aboba
+(advanced-python-itmo) cormeum@MacBook-Air-Artur advanced-python-itmo % nl pyproject.toml 
+     1  [project]
+     2  dependencies = []
+     3  name = "advanced-python-itmo"
+     4  requires-python = ">= 3.11"
+     5  version = "0.1.0"
+      
+     6  [build-system]
+     7  build-backend = "hatchling.build"
+     8  requires = ["hatchling"]
+      
+     9  [tool.pixi.project]
+    10  channels = ["conda-forge"]
+    11  platforms = ["osx-arm64"]
+      
+    12  [tool.pixi.pypi-dependencies]
+    13  advanced_python_itmo = { path = ".", editable = true }
+      
+    14  [tool.pixi.tasks]
+      
+    15  [tool.pixi.dependencies]
+    16  python = ">=3.13.2,<3.14"

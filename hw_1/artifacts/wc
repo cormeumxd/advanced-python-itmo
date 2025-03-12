@@ -1,0 +1,25 @@
+(advanced-python-itmo) cormeum@MacBook-Air-Artur advanced-python-itmo % python hw_1/wc.py
+1
+2
+three
+four
+       4       4      15
+(advanced-python-itmo) cormeum@MacBook-Air-Artur advanced-python-itmo % python hw_1/wc.py pixi.lock
+     192     428    7126 pixi.lock
+(advanced-python-itmo) cormeum@MacBook-Air-Artur advanced-python-itmo % python hw_1/wc.py pixi.lock pyproject.toml 
+     192     428    7126 pixi.lock
+      21      44     410 pyproject.toml
+     213     472    7536 total
+
+(advanced-python-itmo) cormeum@MacBook-Air-Artur advanced-python-itmo % wc
+1
+2
+three
+four
+       4       4      15
+(advanced-python-itmo) cormeum@MacBook-Air-Artur advanced-python-itmo % wc pixi.lock 
+     192     428    7126 pixi.lock
+(advanced-python-itmo) cormeum@MacBook-Air-Artur advanced-python-itmo % wc pixi.lock pyproject.toml 
+     192     428    7126 pixi.lock
+      21      44     410 pyproject.toml
+     213     472    7536 total
