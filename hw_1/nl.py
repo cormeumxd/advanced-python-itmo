@@ -16,8 +16,8 @@ def main():
             print("Input error: Is a directory")
             return
     else:
-        lines = sys.stdin.readlines()
-
+        lines = sys.stdin
+        
     for line in lines:
         stripped = line.rstrip('\n')
         if stripped:
