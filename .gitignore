@@ -180,3 +180,4 @@ cython_debug/
 *.gz
 *generated_table.pdf
 *.aux
+.DS_store
